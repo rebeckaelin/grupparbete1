@@ -9,7 +9,7 @@
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: (12, 1fr);
-  max-width: 1000px; /* Add max-width to .page */
+  max-width: 62.5rem; /* Add max-width to .page */
   margin: 0 auto; /* Center the page horizontally */
 }
 
