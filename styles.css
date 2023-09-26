@@ -22,7 +22,6 @@ body {
   grid-template-columns: repeat(2, 1fr); /* Define two columns */
   grid-template-rows: repeat(2, 1fr); /* Define two rows */
 }
-
 .left {
   grid-column: 1; /* Start at column 1 */
   grid-row: 1 / span 2; /* Start at row 1 and span 2 rows */
@@ -41,7 +40,6 @@ body {
   top: 265px; /* Set the top position to 265px */
   left: 417px; /* Set the left position to 417px */
 }
-
 .right-top {
   grid-column: 2; /* Start at column 2 */
   grid-row: 1; /* Start at row 1 */
@@ -50,7 +48,6 @@ body {
   height: 272px;
   left: 720px;
 }
-
 .right-bottom {
   grid-column: 2; /* Start at column 2 */
   grid-row: 2; /* Start at row 2 */
@@ -60,7 +57,6 @@ body {
   top: 272px;
   left: 720px;
 }
-
 .covered-text {
   position: absolute;
   width: 314px;
@@ -74,7 +70,6 @@ body {
   letter-spacing: -0.02em;
   text-align: left;
 }
-
 .togheter-text {
   position: absolute;
   width: 268px;
@@ -115,11 +110,9 @@ body {
   text-decoration: none;
   position: fixed;
 }
-
 .button-join:hover {
   background-color: #0056b3; /* Darker blue on hover */
 }
-
 .offer-text {
   position: absolute;
   width: 250px;
@@ -148,7 +141,6 @@ body {
   text-align: center;
   color: #ffffff;
 }
-
 .wating-text {
   position: absolute;
   width: 250px;
@@ -163,7 +155,6 @@ body {
   text-align: center;
   color: #00000080;
 }
-
 .join-text {
   position: absolute;
   width: 250px;
@@ -178,20 +169,17 @@ body {
   text-align: center;
   color: #ffffff;
 }
-
 .nav {
   grid-column: span 6;
   max-width: 1000px; /* Add max-width to .page */
   margin: 0 auto; /* Center the page horizontally */
   margin-top: 10px;
 }
-
 .navbar nav ul li {
   display: inline-block; /* Display menu items horizontally */
   margin-right: 100px; /* Add space between menu items */
   list-style-type: none;
 }
-
 .navbar nav a {
   text-decoration: none; /* Remove underlining */
   color: #000; /* Change link color to your desired color */
@@ -203,26 +191,25 @@ body {
   opacity: 0.4;
 }
 
-  .main {
-    grid-column: span 6;
+.main {
+  grid-column: span 6;
+}
 
-  }
+.main_top {
+  grid-column: span 6;
+  background-color: rgb(178, 178, 178);
+}
 
-  .main_top {
-    grid-column: span 6;
-    background-color: rgb(178, 178, 178);
-  }
+.main_bottom {
+  grid-column: span 6;
+  background-color:   #FAB131;
+}
 
-  .main_bottom {
-    grid-column: span 6;
-    background-color:   #FAB131;
-  }
+ /* rebbans del */
 
-  /* rebbans del */
-
-  .section {
-    grid-column: span 6;
-  }
+.section {
+  grid-column: span 6;
+}
 
 .footer {
   grid-column: span 6;
