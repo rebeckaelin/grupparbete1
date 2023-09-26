@@ -4,16 +4,15 @@
   box-sizing: border-box;
 }
 body {
-  background-color: rgb(216, 216, 216);
-}
-
-.page {
-  background-color: white;
+  background-color: rgb(216, 216, 216); 
   display: grid;
   max-width: 62.5rem; 
   margin: 0 auto;
-  grid-auto-flow: auto
+  grid-auto-flow: auto;
+  grid-auto-rows: auto;
 }
+
+
 /* CABBE */
 .header {
   max-width: 1000px;
@@ -229,7 +228,7 @@ img {
   
 }
 
-  .bottom {
-    grid-column: span 6;
-    background-color: grey;
-  }
+.bottom {
+  grid-column: span 6;
+  background-color: grey;
+}
