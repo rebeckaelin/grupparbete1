@@ -3,16 +3,18 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: rgb(216, 216, 216);
+}
 
 .page {
   background-color: white;
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: (12, 1fr);
-  max-width: 62.5rem; /* Add max-width to .page */
-  margin: 0 auto; /* Center the page horizontally */
+  max-width: 62.5rem; 
+  margin: 0 auto;
+  grid-auto-flow: auto
 }
-
+/* CABBE */
 .header {
   max-width: 1000px;
   margin: 0 auto;
@@ -178,7 +180,7 @@
 }
 
 .nav {
-  grid-row: 3; /* Place the nav in the third row (below the header) */
+  grid-column: span 6;
   max-width: 1000px; /* Add max-width to .page */
   margin: 0 auto; /* Center the page horizontally */
   margin-top: 10px;
