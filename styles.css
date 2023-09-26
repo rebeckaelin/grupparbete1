@@ -206,12 +206,48 @@ body {
   background-color:   #FAB131;
 }
 
- /* rebbans del */
+/* rebbans del */
 
-.section {
+/* de 6 lådorna */
+
+.boxes {
   grid-column: span 6;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
 }
 
+.box_1 {
+  background-color: #C7DDEA;
+  grid-column: span 2;
+  height: 21.25rem;
+  font-family: 'Frank Ruhl Libre', serif;
+  font-size: 2.8125rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 2.8125rem;
+  letter-spacing: -0.05625rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box_2, .box_4 , .box_6  {
+  background-color: white;
+  grid-column: span 2;
+}
+
+.box_3 {
+  background-color: rgb(216, 216, 216);
+  grid-column: span 2;
+}
+
+.box_5 {
+  background-color: #F17949;
+  grid-column: span 2;
+  height: 21.25rem;
+}
+
+/* FOOTER - rebbans del */
 .footer {
   grid-column: span 6;
   background-color: #A9A19E;
