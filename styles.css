@@ -189,6 +189,7 @@ body {
   letter-spacing: -0.02em;
   opacity: 0.4;
 }
+
 /* GEMENSAMT */
 
 .main {
@@ -213,19 +214,30 @@ body {
 
 .footer {
   grid-column: span 6;
-  background-color: rgb(178, 178, 178);
+  background-color: #A9A19E;
   color: rgba(0, 0, 0, 0.70);
   font-family: 'Fira Sans', sans-serif;
   font-size: 1.0625rem;
   font-style: normal;
   font-weight: 500;
-  text-align: center;
-  padding-bottom: .8rem;
-  }
+  height: 4.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.25rem;
+  position: relative;
+}
 
-img {
-  color: #000000B2;
-  
+.pil {
+  position: absolute;
+  top: 33%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.up_again {
+
 }
 
 .bottom {
