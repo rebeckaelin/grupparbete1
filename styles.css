@@ -1,21 +1,17 @@
 * {
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  body {
-    background-color: rgb(218, 218, 218);
-  }
-  
 .page {
-    background-color: rgb(255, 255, 255);
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-auto-rows: auto;
-    max-width: 62.5rem;
-    margin: 0 auto;
-  }
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: (12, 1fr);
+  max-width: 1000px; /* Add max-width to .page */
+  margin: 0 auto; /* Center the page horizontally */
+}
 
   .header {
     grid-column: span 6;
@@ -53,7 +49,6 @@
     font-style: normal;
     font-weight: 500;
     text-align: center;
-    padding: .5rem;
   }
 
   .bottom {
