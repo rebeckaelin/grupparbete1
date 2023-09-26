@@ -205,14 +205,17 @@ body {
 
   .main {
     grid-column: span 6;
+
   }
 
   .main_top {
+    grid-column: span 6;
     background-color: rgb(178, 178, 178);
   }
 
   .main_bottom {
-    background-color: rgb(251, 207, 126);
+    grid-column: span 6;
+    background-color:   #FAB131;
   }
 
   /* rebbans del */
@@ -221,16 +224,22 @@ body {
     grid-column: span 6;
   }
 
-  .footer {
-    grid-column: span 6;
-    background-color: rgb(178, 178, 178);
-    color: rgba(0, 0, 0, 0.70);
-    font-family: 'Fira Sans', sans-serif;
-    font-size: 1.0625rem;
-    font-style: normal;
-    font-weight: 500;
-    text-align: center;
+.footer {
+  grid-column: span 6;
+  background-color: rgb(178, 178, 178);
+  color: rgba(0, 0, 0, 0.70);
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 1.0625rem;
+  font-style: normal;
+  font-weight: 500;
+  text-align: center;
+  padding-bottom: .8rem;
   }
+
+img {
+  color: #000000B2;
+  
+}
 
   .bottom {
     grid-column: span 6;
