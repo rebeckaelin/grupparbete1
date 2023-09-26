@@ -231,16 +231,14 @@ body {
 
 .pil {
   position: absolute;
-  top: 33%;
+  top: 32%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.up_again {
-
-}
-
 .bottom {
   grid-column: span 6;
-  background-color: grey;
+  background-color: #777574;
+  width: 62.5rem;
+  height: 21.25rem;
 }
