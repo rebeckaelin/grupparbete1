@@ -205,6 +205,32 @@ body {
   height: 38.25rem;
 }
 
+.safety_net {
+  color: #FFF;
+  font-family: 'Frank Ruhl Libre', serif;
+  font-size: 2.8125rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 100%;
+  letter-spacing: -0.05625rem;
+  width: 19.625rem;
+  height: 8.75rem;
+  padding-top: 6.64rem;
+  padding-left: 6.69rem;
+}
+
+.txt {
+  color: rgba(0, 0, 0, 0.60);
+  font-family: Fira Sans;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5rem;
+  font-family: 'Fira Sans', sans-serif;
+  width: 17.5rem;
+  height: 14.8125rem;
+}
+
 /* MAIN BOTTOM */
 
 .main_bottom {
@@ -230,6 +256,7 @@ body {
   color: rgba(0, 0, 0, 0.60);
   padding-left: 17.56rem;
   padding-right: 16.44rem;
+  font-family: 'Fira Sans', sans-serif;
 }
 
 /* rebbans del */
