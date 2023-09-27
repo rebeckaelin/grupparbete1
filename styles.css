@@ -299,3 +299,8 @@ p {
   width: 62.5rem;
   height: 21.25rem;
 }
+
+.up_again {
+  padding: 0;
+  margin-top: .1rem;
+}
