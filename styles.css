@@ -208,7 +208,8 @@ body {
 
 /* rebbans del */
 
-/* de 6 lådorna */
+
+/* DE 6 LÅDORNA */
 
 .boxes {
   grid-column: span 6;
@@ -267,7 +268,7 @@ p {
   padding-top: 3rem;
 }
 
-/* FOOTER - rebbans del */
+/* FOOTER */
 .footer {
   grid-column: span 6;
   background-color: #A9A19E;
