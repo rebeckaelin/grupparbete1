@@ -198,12 +198,16 @@ body {
 
 .main_top {
   grid-column: span 6;
-  background-color: rgb(178, 178, 178);
+  background-color: #A9A19E;
+  width: 62.625rem;
+  height: 38.25rem;
 }
 
 .main_bottom {
   grid-column: span 6;
   background-color:   #FAB131;
+  width: 62.625rem;
+  height: 42.5rem;
 }
 
 /* rebbans del */
