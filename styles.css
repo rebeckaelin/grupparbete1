@@ -247,6 +247,26 @@ body {
   height: 21.25rem;
 }
 
+h2 {
+  color: rgba(0, 0, 0, 0.40);
+  font-size: 2.188rem;
+  font-family: 'Frank Ruhl Libre', serif;
+  font-weight: 900;
+  line-height: 2.188rem;
+  padding: 2rem;
+} 
+
+p {
+  color: rgba(0, 0, 0, 0.70);
+  text-align: center;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 1.0625rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.25rem;
+  padding-top: 3rem;
+}
+
 /* FOOTER - rebbans del */
 .footer {
   grid-column: span 6;
