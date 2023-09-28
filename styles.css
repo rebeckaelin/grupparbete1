@@ -129,12 +129,16 @@ body {
   cursor: pointer;
   text-align: center;
   text-decoration: none;
-  position: absolute;
-  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-left: 85px;
 }
 .button-join:hover {
   background-color: #0056b3; /* Darker blue on hover */
 }
+
 .offer-text {
   font-family: "Fira Sans", sans-serif;
   font-size: 11px;
