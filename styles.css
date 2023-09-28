@@ -280,6 +280,8 @@ body {
   justify-content: center;
   gap: 1.69rem;
   margin-top: 7.06rem;
+  position: relative;
+
 }
 
 .profilecard {
@@ -300,6 +302,8 @@ body {
   border-radius: 0.25rem;
   position: relative;
   transform: translateY(-1.63rem);
+  z-index: 1;
+  overflow: hidden;
 }
 
 .blue {
@@ -325,6 +329,8 @@ h4 {
   line-height: 1.25rem;
   width: 12.375rem;
   height: 0.8125rem;
+  position: relative;
+  z-index: 1;
 }
 
 .info {
@@ -339,6 +345,8 @@ h4 {
   text-align: center;
   margin-top: 0.87rem;
   margin-bottom: 1.69rem;
+  position: relative;
+  z-index: 1;
 }
 
 .image_1 {
@@ -347,14 +355,17 @@ h4 {
 }
 
 .image_2 {
+  width: 5.876rem;
   margin-top: 0.87rem;
-  margin-left: 5rem;
+  margin-left: 4.17rem;
 }
 
-.oldfart {
+.image_3 {
   width: 7.93319rem;
   margin-top: 1.5rem;
   margin-left: 3.77rem;
+  position: relative;
+  z-index: 2;
 }
 
 /* PROFILKORT */
