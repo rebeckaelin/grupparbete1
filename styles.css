@@ -32,7 +32,6 @@ body {
   justify-content: center;
   align-items: center;
   
- 
 }
 .left img {
    /* Enable absolute positioning for the image */
@@ -82,7 +81,7 @@ body {
   align-items: center;
   justify-content: center;
   margin-top: 50px;
-  margin-left: 110px;
+  margin-left: 85px;
 
 }
 .togheter-text {
@@ -97,7 +96,7 @@ body {
   letter-spacing: 0em;
   text-align: left;
   color: #00000099;
-  margin-left: 110px;
+  margin-left: 85px;
 }
 .togheter-text strong {
   font-family: "Fira Sans", sans-serif;
@@ -113,8 +112,8 @@ body {
 .button-join {
   width: 131px; /* Set the width */
   height: 39px; /* Set the height */
-  top: 280px; /* Set the top position */
-  left: 324px; /* Set the left position */
+  top: 320px; /* Set the top position */
+  left: 293px; /* Set the left position */
   border-radius: 100px; /* Rounded corners to create a circle */
   background-color: #26588c; /* Blue background color */
   color: #fff; /* White text color */
@@ -137,7 +136,8 @@ body {
   letter-spacing: -0.02em;
   text-align: center;
   color: #00000080;
-  margin-top: 100px;
+  margin-top: 10px;
+  
 }
 .learn-more-text {
   font-family: "Frank Ruhl Libre", sans-serif;
@@ -160,7 +160,7 @@ body {
   letter-spacing: -0.02em;
   text-align: center;
   color: #00000080;
-  margin-top: 100px;
+  margin-top: 10px;
 }
 .join-text {
   font-family: "Frank Ruhl Libre", sans-serif;
