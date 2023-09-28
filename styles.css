@@ -181,7 +181,7 @@ body {
   grid-column: span 6;
   max-width: 1000px; /* Add max-width to .page */
   margin: 0 auto; /* Center the page horizontally */
-  margin-top: 10px;
+  
 }
 .navbar nav ul li {
   display: inline-block; /* Display menu items horizontally */
