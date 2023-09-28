@@ -275,10 +275,12 @@ body {
   color: rgba(0, 0, 0, 0.60);
   padding-left: 17.56rem;
   padding-right: 16.44rem;
+  padding-top: 2rem;
   font-family: 'Fira Sans', sans-serif;
+  text-align: center;
 }
 
-/* rebbans del */
+
 
 
 /* DE 6 LÅDORNA */
@@ -329,7 +331,7 @@ h2 {
   padding: 2rem;
 } 
 
-p {
+.boxes section p {
   color: rgba(0, 0, 0, 0.70);
   text-align: center;
   font-family: 'Fira Sans', sans-serif;
