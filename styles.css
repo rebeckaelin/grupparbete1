@@ -28,22 +28,17 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
-  
 }
 .left img {
-  /* Enable absolute positioning for the image */
-  width: 286px; /* Set the width to 286px */
-  height: 279px; /* Set the height to 279px */
-  top: 265px; /* Set the top position to 265px */
-  left: 215px; /* Set the left position to 417px */
-  
+  width: 286px;
+  height: 279px;
+  top: 0; /* Adjust the top position */
+  left: 265; /* Adjust the left position */
+  transform: translate(215px, 265px); /* Use transform for positioning */
   display: flex;
   align-items: center;
   justify-content: center;
   position: absolute;
-  
- 
 }
 .right-top {
   grid-column: 2; /* Start at column 2 */
