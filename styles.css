@@ -48,9 +48,11 @@ body {
   width: 501px; 
   height: 272px;
   left: 720px;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
 
 }
 .right-bottom {
@@ -61,6 +63,7 @@ body {
   height: 272px;
   top: 272px;
   left: 720px;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
