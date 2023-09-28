@@ -178,28 +178,18 @@ body {
 }
 .nav {
   grid-column: span 6;
-  max-width: 1000px; /* Add max-width to .page */
-  margin: 1rem auto; /* Center the page horizontally */
-  display: flex;
-  justify-content: center;
+  max-width: 62.5rem;
+  height: 4.25rem;
 }
 
-.navbar nav ul li {
-  display: inline-block; /* Display menu items horizontally */
-  margin-right: 100px; /* Add space between menu items */
+.navbar, li {
   list-style-type: none;
-
-}
-.navbar nav a {
-  text-decoration: none; /* Remove underlining */
-  color: #777574;
-  text-align: center;
-  font-family: "Fira Sans", sans-serif;
-  font-size: 0.75rem;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 100%; /* 0.75rem */
-  letter-spacing: -0.015rem;
+  font-family: 'Fira Sans', sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: #A9A19E;
+  margin-top: 1.125rem;
 }
 
 /* GEMENSAMT */
