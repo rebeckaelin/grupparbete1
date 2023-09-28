@@ -216,7 +216,9 @@ body {
 .main_wrapper {
   display: flex;
   flex-direction: column;
-
+  height: 14,8175rem;
+  display: flex;
+  justify-content: space-between;
 }
 
 .safety_net {
