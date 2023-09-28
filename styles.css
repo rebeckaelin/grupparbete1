@@ -24,12 +24,16 @@ body {
   grid-column: 1; /* Start at column 1 */
   grid-row: 1 / span 2; /* Start at row 1 and span 2 rows */
   background-color: #c7ddea;
-  width: 501px;
+  /* width: 501px;
   height: 544px;
   left: 219px;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
+
+  width: 31.3125rem;
+  height: 34rem;
+  
   
 }
 .left img {
@@ -68,22 +72,17 @@ body {
   align-items: center;
 }
 .covered-text {
-  
-  width: 314px;
-  height: 101px;
-  top: 71px;
-  left: 324px;
-  font-family: "Frank Ruhl Libre", sans-serif;
-  font-size: 45px;
+  color: #000;
+  font-family: Frank Ruhl Libre;
+  font-size: 2.8125rem;
+  font-style: normal;
   font-weight: 900;
-  line-height: 45px;
-  letter-spacing: -0.02em;
-  text-align: left;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 50px;
-  margin-left: 85px;
+  line-height: 100%;
+  letter-spacing: -0.05625rem;
+  width: 19.625rem;
+  height: 6.3125rem;
+  margin-top: 4.44rem;
+  margin-left: 6.65rem;
 
 }
 .togheter-text {
@@ -98,7 +97,7 @@ body {
   letter-spacing: 0em;
   text-align: left;
   color: #00000099;
-  margin-left: 85px;
+  margin-left: 6.65rem;
 }
 .togheter-text strong {
   font-family: "Fira Sans", sans-serif;
@@ -108,28 +107,27 @@ body {
   letter-spacing: 0em;
   text-align: left;
   color: #ffffff;
+
 }
 
-/* styles.css */
 .button-join {
-  width: 131px; /* Set the width */
-  height: 39px; /* Set the height */
-  top: 320px; /* Set the top position */
-  left: 293px; /* Set the left position */
-  border-radius: 100px; /* Rounded corners to create a circle */
-  background-color: #26588c; /* Blue background color */
-  color: #fff; /* White text color */
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
+  width: 8.1875rem;
+  height: 2.4375rem;
+  border-style: none;
+  border-radius: 6.25rem;
+  background: #FFF;
+  box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.10);
+  color: rgba(0, 0, 0, 0.80);
+  font-family: 'Fira Sans', sans-serif;
   text-align: center;
-  text-decoration: none;
-  position: absolute;
-  
+  font-size: 0.625rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 6.65rem;
+  margin-top: 3.19rem;
 }
-.button-join:hover {
-  background-color: #0056b3; /* Darker blue on hover */
-}
+
 .offer-text {
   font-family: "Fira Sans", sans-serif;
   font-size: 11px;
