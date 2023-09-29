@@ -161,6 +161,7 @@ body {
   grid-column: span 6;
   max-width: 62.5rem;
   height: 4.25rem;
+  
 }
 .navbar, li {
   list-style-type: none;
@@ -170,6 +171,7 @@ body {
   justify-content: space-evenly;
   color: #A9A19E;
   margin-top: 1.125rem;
+  font-size: 0.75rem;
 }
 /* NAVIGATION BAR */
 
