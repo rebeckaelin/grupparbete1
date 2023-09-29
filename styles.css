@@ -90,70 +90,45 @@ body {
   grid-column: 2; /* Start at column 2 */
   grid-row: 1; /* Start at row 1 */
   background-color: #f17949;
-  width: 501px; 
-  height: 272px;
-  left: 720px;
+  width: 31.3125rem;
+  height: 17rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
+.offer-text , .waiting-text {
+  color: rgba(0, 0, 0, 0.50);
+  text-align: center;
+  font-family: Fira Sans;
+  font-size: 0.6875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.01375rem;
+}
+.join-text , .learn-more-text {
+  color: #FFF;
+  text-align: center;
+  font-family: Frank Ruhl Libre;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: -0.04rem;
+}
+
 .right-bottom {
   grid-column: 2; /* Start at column 2 */
   grid-row: 2; /* Start at row 2 */
   background-color: #ffb939;
-  width: 501px;
-  height: 272px;
-  top: 272px;
-  left: 720px;
+  width: 31.3125rem;
+  height: 17rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-.offer-text {
-  font-family: "Fira Sans", sans-serif;
-  font-size: 11px;
-  font-weight: 700;
-  line-height: 13.2px;
-  letter-spacing: -0.02em;
-  text-align: center;
-  color: #00000080;
-  margin-top: 10px;
-}
-.learn-more-text {
-  font-family: "Frank Ruhl Libre", sans-serif;
-  font-size: 32px;
-  font-weight: 900;
-  line-height: 41.31px;
-  letter-spacing: -0.02em;
-  text-align: center;
-  color: #ffffff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.waiting-text {
-  font-family: "Fira Sans", sans-serif;
-  font-size: 11px;
-  font-weight: 700;
-  line-height: 13.2px;
-  letter-spacing: -0.02em;
-  text-align: center;
-  color: #00000080;
-  margin-top: 10px;
-}
-.join-text {
-  font-family: "Frank Ruhl Libre", sans-serif;
-  font-size: 32px;
-  font-weight: 900;
-  line-height: 41.31px;
-  letter-spacing: -0.02em;
-  text-align: center;
-  color: #ffffff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 /* HEADER */
 /* NAVIGATION BAR */
@@ -169,7 +144,8 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  color: #A9A19E;
+  color: black;
+  opacity: 0.4;
   margin-top: 1.125rem;
   font-size: 0.75rem;
 }
