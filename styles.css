@@ -17,7 +17,7 @@ body {
   max-width: 1000px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Define two columns */
+  grid-template-columns: repeat(6, 1fr); /* Define two columns */
   grid-template-rows: repeat(2, 1fr); /* Define two rows */
 }
 .left {
@@ -328,13 +328,14 @@ body {
   border-radius: 4px;
   background-color: rgba(241, 121, 73, 1);
   position: absolute;
+  overflow: hidden;
 }
 
 .box-1 img {
   width: 96.42;
   height: 161.99px;
-  top: 10px;
-  left: 55.57px;
+  top: 11px;
+  left: 80px;
   position: absolute;
 }
 
@@ -342,8 +343,36 @@ body {
   width: 103.77px;
   height: 433px;
   top: 10px;
-  left: 56.62px;
+  left: 60px;
   position: absolute;
+}
+.box-3 img {
+  width: 133.56px;
+  height: 364.1px;
+  top: 10px;
+  left: 51.98px;
+  position: absolute;
+}
+.profilecard figcaption {
+  text-align: center; /* Center-align the text */
+  margin-top: 140px; /* Add some top margin to separate it from the image */
+}
+
+.profilecard h4 {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 16px; /* Adjust the font size */
+  font-weight: 700;
+  line-height: 20px;
+  margin: 10px 0; /* Add margin for spacing */
+}
+
+.profilecard p {
+  font-family: "Fira Sans";
+  font-size: 11px; /* Adjust the font size */
+  font-weight: 700;
+  line-height: 18px;
+  color: rgba(0, 0, 0, 0.4); /* Adjust the text color */
+  margin: 10px 0; /* Add margin for spacing */
 }
 
 /* MAIN BOTTOM */
