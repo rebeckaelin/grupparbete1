@@ -186,7 +186,8 @@ body {
 }
 .navbar nav ul li {
   display: inline-block; /* Display menu items horizontally */
-  margin-right: 100px; /* Add space between menu items */
+  margin-right: 60px; /* Add space between menu items */
+  margin-left: 60px;  /* Add space between menu items */
   list-style-type: none;
 }
 .navbar nav a {
