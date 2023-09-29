@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500;600;700;800;900&family=Frank+Ruhl+Libre:wght@400;500;700;900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +14,7 @@ body {
 }
 /* HEADER */
 .header {
-  max-width: 1000px;
+  max-width: 62.5rem; 
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* Define two columns */
@@ -136,19 +138,34 @@ body {
   grid-column: span 6;
   max-width: 62.5rem;
   height: 4.25rem;
-  
 }
-.navbar, li {
+.navbar {
   list-style-type: none;
   font-family: 'Fira Sans', sans-serif;
-  display: flex;
+  /* display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  color: black;
-  opacity: 0.4;
-  margin-top: 1.125rem;
+  justify-content: space-evenly; */
+  display: grid;
+  grid-template-columns: repeat(6 , 10.417rem);
+  align-items: center;
+  height: 100%;
+  color: rgba(0, 0, 0,0.4);
   font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%;
+  letter-spacing: -0.015rem;
 }
+
+li {
+  text-align: center;
+}
+
+#active {
+  grid-column-start: 2;
+  color: rgba(0, 0, 0,1);
+}
+
 /* NAVIGATION BAR */
 
 /* MAIN AREA */
