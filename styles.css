@@ -110,12 +110,16 @@ body {
 .button-join {
   width: 131px; /* Set the width */
   height: 39px; /* Set the height */
-  top: 320px; /* Set the top position */
-  left: 293px; /* Set the left position */
+  top: 326px; /* Set the top position */
+  left: 324px; /* Set the left position */
   border-radius: 100px; /* Rounded corners to create a circle */
-  background-color: #26588c; /* Blue background color */
-  color: #fff; /* White text color */
-  font-size: 16px;
+  background-color:#FFFFFF;/* white background color */
+  color: rgba(0, 0, 0, 0.8); /* White text color */
+  font-family: "Fira Sans";
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 12px;
+  letter-spacing: 0;
   border: none;
   cursor: pointer;
   text-align: center;
@@ -123,11 +127,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 50px;
+  margin-top: 60px;
   margin-left: 85px;
 }
 .button-join:hover {
-  background-color: #0056b3; /* Darker blue on hover */
+  background-color: #f3f8f8; 
 }
 .offer-text {
   font-family: "Fira Sans", sans-serif;
@@ -177,8 +181,8 @@ body {
   grid-column: span 6;
   max-width: 1000px; /* Add max-width to .page */
   margin: 0 auto; /* Center the page horizontally */
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 .navbar nav ul li {
   display: inline-block; /* Display menu items horizontally */
