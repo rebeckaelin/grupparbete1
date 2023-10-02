@@ -12,7 +12,7 @@ body {
   grid-auto-rows: auto;
 }
 
-/* CABBE */
+/* CABBE - some parent header style to target everything in header */
 .header {
   max-width: 1000px;
   margin: 0 auto;
@@ -20,6 +20,7 @@ body {
   grid-template-columns: repeat(6, 1fr); /* Define two columns */
   grid-template-rows: repeat(2, 1fr); /* Define two rows */
 }
+/* Style for blue box in the header at the left */
 .left {
   grid-column: 1; /* Start at column 1 */
   grid-row: 1 / span 2; /* Start at row 1 and span 2 rows */
@@ -31,6 +32,7 @@ body {
   justify-content: center;
   align-items: center;
 }
+/* Style for img with whole family in blue box in header */
 .left img {
   width: 286px;
   height: 279px;
@@ -42,6 +44,7 @@ body {
   justify-content: center;
   position: absolute;
 }
+/* Style for red/orange box in the header at the top right */
 .right-top {
   grid-column: 2; /* Start at column 2 */
   grid-row: 1; /* Start at row 1 */
@@ -54,6 +57,7 @@ body {
   justify-content: center;
   align-items: center;
 }
+/* Style for yellow/orange box in the header at the bottom right */
 .right-bottom {
   grid-column: 2; /* Start at column 2 */
   grid-row: 2; /* Start at row 2 */
@@ -67,6 +71,7 @@ body {
   justify-content: center;
   align-items: center;
 }
+/* Style the text in blue box in header */
 .covered-text {
   width: 314px;
   height: 101px;
@@ -84,6 +89,7 @@ body {
   margin-top: 50px;
   margin-left: 85px;
 }
+/* Style the text in blue box in header */
 .togheter-text {
   width: 268px;
   height: 103px;
@@ -98,6 +104,7 @@ body {
   color: #00000099;
   margin-left: 85px;
 }
+/* Style the text in blue box in header */
 .togheter-text strong {
   font-family: "Fira Sans", sans-serif;
   font-size: 14px;
@@ -108,7 +115,7 @@ body {
   color: #ffffff;
 }
 
-/* styles.css */
+/* styles for the Join now button in header blue box at the left */
 .button-join {
   width: 131px; /* Set the width */
   height: 39px; /* Set the height */
@@ -135,7 +142,7 @@ body {
 .button-join:hover {
   background-color: #f3f8f8;
 }
-
+/* Style for the text in red/orange box in the header at the top right */
 .offer-text {
   font-family: "Fira Sans", sans-serif;
   font-size: 11px;
@@ -146,6 +153,7 @@ body {
   color: #00000080;
   margin-top: 10px;
 }
+/* Style for the text in red/orange box in the header at the top right */
 .learn-more-text {
   font-family: "Frank Ruhl Libre", sans-serif;
   font-size: 32px;
@@ -158,6 +166,7 @@ body {
   align-items: center;
   justify-content: center;
 }
+/* Style for the text in yellow/orange box in the header at the bottom right */
 .wating-text {
   font-family: "Fira Sans", sans-serif;
   font-size: 11px;
@@ -168,6 +177,7 @@ body {
   color: #00000080;
   margin-top: 10px;
 }
+/* Style for the text in yellow/orange box in the header at the bottom right */
 .join-text {
   font-family: "Frank Ruhl Libre", sans-serif;
   font-size: 32px;
@@ -180,6 +190,7 @@ body {
   align-items: center;
   justify-content: center;
 }
+/* style for the navbar */
 .nav {
   grid-column: span 6;
   max-width: 1000px; /* Add max-width to .page */
@@ -280,7 +291,6 @@ body {
   justify-content: center;
   gap: 1.69rem;
 }
-
 .profilecard {
   width: 16rem;
   height: 19.25rem;
@@ -290,47 +300,28 @@ body {
   background-color: white;
   position: relative;
 }
+/* css style for all the boxes in the profilecards */
 .box {
   width: 236px;
   height: 150px;
   border-radius: 4px;
-  background-color: rgb(151, 28, 28);
   position: absolute;
+  overflow: hidden;
+  top: -25px; /* Adjust the top position relative to .profilecard */
+  left: 10px; /* Adjust the left position relative to .profilecard */
 }
-
+/* color for the boxes in the profilecards */
 .box-1 {
-  width: 236px;
-  height: 150px;
-  top: -25px; /* Adjust the top position relative to .profilecard */
-  left: 10px; /* Adjust the left position relative to .profilecard */
-  border-radius: 4px;
   background-color: rgba(199, 221, 234, 1);
-  position: absolute;
-  overflow: hidden;
 }
-
 .box-2 {
-  width: 236px;
-  height: 150px;
-  top: -25px; /* Adjust the top position relative to .profilecard */
-  left: 10px; /* Adjust the left position relative to .profilecard */
-  border-radius: 4px;
   background-color: rgba(250, 177, 49, 1);
-  position: absolute;
-  overflow: hidden;
 }
-
 .box-3 {
-  width: 236px;
-  height: 150px;
-  top: -25px; /* Adjust the top position relative to .profilecard */
-  left: 10px; /* Adjust the left position relative to .profilecard */
-  border-radius: 4px;
   background-color: rgba(241, 121, 73, 1);
-  position: absolute;
-  overflow: hidden;
 }
-
+/* Imgs in box-1 , box-2 , box-3*/
+/* Child img */
 .box-1 img {
   width: 96.42;
   height: 161.99px;
@@ -338,7 +329,7 @@ body {
   left: 80px;
   position: absolute;
 }
-
+/* Adult img */
 .box-2 img {
   width: 103.77px;
   height: 433px;
@@ -346,6 +337,7 @@ body {
   left: 60px;
   position: absolute;
 }
+/* old man img */
 .box-3 img {
   width: 133.56px;
   height: 364.1px;
@@ -353,11 +345,12 @@ body {
   left: 51.98px;
   position: absolute;
 }
+/* the text in all the profilecards style etc */
 .profilecard figcaption {
   text-align: center; /* Center-align the text */
   margin-top: 140px; /* Add some top margin to separate it from the image */
+ 
 }
-
 .profilecard h4 {
   font-family: "Fira Sans", sans-serif;
   font-size: 16px; /* Adjust the font size */
@@ -365,7 +358,6 @@ body {
   line-height: 20px;
   margin: 10px 0; /* Add margin for spacing */
 }
-
 .profilecard p {
   font-family: "Fira Sans";
   font-size: 11px; /* Adjust the font size */
@@ -373,6 +365,9 @@ body {
   line-height: 18px;
   color: rgba(0, 0, 0, 0.4); /* Adjust the text color */
   margin: 10px 0; /* Add margin for spacing */
+  width: 214px;
+  height: 108px;
+  margin-left: 21px;
 }
 
 /* MAIN BOTTOM */
