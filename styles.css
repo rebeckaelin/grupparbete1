@@ -19,7 +19,7 @@ body {
   max-width: 1000px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(6, 1fr); /* Define two columns */
+  grid-template-columns: repeat(6, 1fr); /* Define six columns */
   grid-template-rows: repeat(2, 1fr); /* Define two rows */
 }
 /* Style for blue box in the header at the left */
