@@ -142,9 +142,6 @@ body {
 .navbar {
   list-style-type: none;
   font-family: 'Fira Sans', sans-serif;
-  /* display: flex;
-  flex-direction: row;
-  justify-content: space-evenly; */
   display: grid;
   grid-template-columns: repeat(6 , 10.417rem);
   align-items: center;
